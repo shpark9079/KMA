@@ -1,0 +1,40 @@
+grib_to_netcdf: Version 1.28.0
+grib_to_netcdf: Processing input file '/data1/2020/KMA/SFR-07/DAIO/ecmw_ewam_total.202004080000.gb1'.
+grib_to_netcdf: Found 8670 GRIB fields in 1 file.
+grib_to_netcdf: Ignoring key(s): method, type, stream, refdate, hdate
+grib_to_netcdf: Creating netCDF file '/data1/2020/KMA/SFR-07/DAIO/ecmwf_ense_tmp.nc'
+grib_to_netcdf: NetCDF library version: 4.1.3 of Feb 24 2014 21:05:37 $
+grib_to_netcdf: Creating large (64 bit) file format.
+grib_to_netcdf: Defining variable 'dwi'.
+grib_to_netcdf: Defining variable 'mwd'.
+grib_to_netcdf: Defining variable 'mwp'.
+grib_to_netcdf: Defining variable 'swh'.
+grib_to_netcdf: Defining variable 'wind'.
+grib_to_netcdf: Done.
+cdo sellonlatbox: Processed 234013500 values from 5 variables over 34 timesteps ( 4.22s )
+grib_to_netcdf: Version 1.28.0
+grib_to_netcdf: Processing input file '/data1/2020/KMA/SFR-07/20200309/ecmw_hwam_glob_h000.202003090000.gb1'.
+grib_to_netcdf: Found 15 GRIB fields in 1 file.
+grib_to_netcdf: Ignoring key(s): method, type, stream, refdate, hdate
+grib_to_netcdf: Creating netCDF file '/data1/2020/KMA/SFR-07/DAIO/ecmwf_only_tmp.nc'
+grib_to_netcdf: NetCDF library version: 4.1.3 of Feb 24 2014 21:05:37 $
+grib_to_netcdf: Creating large (64 bit) file format.
+grib_to_netcdf: Defining variable 'shts'.
+grib_to_netcdf: Defining variable 'swh'.
+grib_to_netcdf: Defining variable 'shww'.
+grib_to_netcdf: Defining variable 'mwp'.
+grib_to_netcdf: Defining variable 'mwd'.
+grib_to_netcdf: Defining variable 'mdts'.
+grib_to_netcdf: Defining variable 'mpts'.
+grib_to_netcdf: Defining variable 'mpww'.
+grib_to_netcdf: Defining variable 'hmax'.
+grib_to_netcdf: Defining variable 'mdww'.
+grib_to_netcdf: Defining variable 'wind'.
+grib_to_netcdf: Defining variable 'dwi'.
+grib_to_netcdf: Defining variable 'wmb'.
+grib_to_netcdf: Defining variable 'tauoc'.
+grib_to_netcdf: Defining variable 'cdww'.
+grib_to_netcdf: Done.
+cdo sellonlatbox: Processed 15573600 values from 15 variables over 1 timestep ( 0.25s )
+82.63user 2.48system 1:26.69elapsed 98%CPU (0avgtext+0avgdata 64936maxresident)k
+0inputs+4619424outputs (0major+89315minor)pagefaults 0swaps
